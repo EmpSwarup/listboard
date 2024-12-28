@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#notes-container {
+  margin-top: 10px;
+  overflow-y: scroll;
+  max-height: 450px;
+}
+
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.note-text {
+  width: 75%;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.note-text:focus {
+  outline: none;
+}
+
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+  align-self: center;
+}
